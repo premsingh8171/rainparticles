@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/top"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/lt_orange"
+        android:text="top"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/blast"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/lt_orange"
+        android:text="center"
+        android:textColor="@color/white" />
+
+    <com.premsinghdaksha.rain_particles.psd.view.RainParticlesView
+        android:id="@+id/rainparticlesview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.premsinghdaksha.rain_particles.psd.view.RainParticlesView>
+
+</RelativeLayout>

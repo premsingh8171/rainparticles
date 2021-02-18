@@ -1,0 +1,3 @@
+include ':rain_particles'
+include ':app'
+rootProject.name = "RainParticlesDemo"
