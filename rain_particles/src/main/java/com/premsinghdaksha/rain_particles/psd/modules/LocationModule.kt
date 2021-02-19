@@ -8,6 +8,7 @@ import java.util.Random
  * The module handles both single points and multiple points
  * If a range is set (betweenX or betweenY) a random point will be picked
  */
+
 class LocationModule(private val random: Random) {
 
     private var minX: Float = 0f

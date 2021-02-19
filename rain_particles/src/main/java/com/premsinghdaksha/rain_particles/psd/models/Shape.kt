@@ -38,6 +38,16 @@ interface Shape {
         }
     }
 
+    object mRectangle : Shape {
+        override fun draw(
+            canvas: Canvas,
+            paint: Paint,
+            size: Float
+        ) {
+            canvas.drawRect(0f, 0f, size, size, paint)
+        }
+    }
+
     class Rectangle(
         /** The ratio of height to width. Must be within range [0, 1] */
         private val heightRatio: Float

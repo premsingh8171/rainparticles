@@ -2,7 +2,7 @@ package com.premsinghdaksha.rain_particles.psd.emitters
 /**
  * Created by Prem singh daksha.
  *
- * BurstEmitter creates all confetti at once when [RenderSystem] is started
+ * BurstEmitter creates all RainParticlesConfig at once when [RenderSystem] is started
  */
 class BurstEmitter : Emitter() {
 

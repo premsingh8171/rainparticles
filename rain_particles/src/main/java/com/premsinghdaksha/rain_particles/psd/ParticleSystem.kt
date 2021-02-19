@@ -16,7 +16,7 @@ import com.premsinghdaksha.rain_particles.psd.view.RainParticlesView
 import java.util.Random
 
 /**
- * Created by dionsegijn on 3/26/17.
+ * Created by prem signh daksha
  */
 class ParticleSystem(private val rainParticlesView: RainParticlesView) {
 
@@ -95,7 +95,7 @@ class ParticleSystem(private val rainParticlesView: RainParticlesView) {
      * Configure one or more shapes predefined in [Shape]
      * Default shape is [Shape.RECT] rectangle
      */
-    fun addShapes(vararg shapes: Shape.Square): ParticleSystem {
+    fun addShapes(vararg shapes: Shape.Circle): ParticleSystem {
         this.shapes = shapes.filterIsInstance<Shape>().toTypedArray()
         return this
     }

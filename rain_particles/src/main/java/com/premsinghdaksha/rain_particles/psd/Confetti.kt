@@ -26,7 +26,7 @@ class Confetti(
     val accelerate: Boolean = true,
     val maxAcceleration: Float = -1f,
     val rotationSpeedMultiplier: Float = 1f
-) {
+    ) {
 
     private val mass = size.mass
     private var width = size.sizeInPx
