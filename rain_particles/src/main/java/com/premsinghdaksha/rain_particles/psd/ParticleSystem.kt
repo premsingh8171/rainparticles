@@ -95,7 +95,7 @@ class ParticleSystem(private val rainParticlesView: RainParticlesView) {
      * Configure one or more shapes predefined in [Shape]
      * Default shape is [Shape.RECT] rectangle
      */
-    fun addShapes(vararg shapes: Shape.Circle): ParticleSystem {
+    fun addShapes(vararg shapes: Shape.Mrectangle): ParticleSystem {
         this.shapes = shapes.filterIsInstance<Shape>().toTypedArray()
         return this
     }

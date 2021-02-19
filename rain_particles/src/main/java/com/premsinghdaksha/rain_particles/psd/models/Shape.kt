@@ -26,6 +26,10 @@ interface Shape {
         @JvmField
         @Deprecated("Use Circle class, instead.", replaceWith = ReplaceWith("Shape.Circle"))
         val CIRCLE = Circle
+
+        @JvmField
+        @Deprecated("Use Rectangle class, instead.", replaceWith = ReplaceWith("rectangle.Circle"))
+        val Rectangle = Mrectangle
     }
 
     object Square : Shape {
@@ -38,13 +42,13 @@ interface Shape {
         }
     }
 
-    object mRectangle : Shape {
+    object Mrectangle : Shape {
         override fun draw(
             canvas: Canvas,
             paint: Paint,
             size: Float
         ) {
-            canvas.drawRect(0f, 0f, size, size, paint)
+            canvas.drawRect(50f, 10f, size, size, paint)
         }
     }
 

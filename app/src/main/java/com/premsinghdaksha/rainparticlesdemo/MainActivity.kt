@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             .setSpeed(1f, 5f)
             .setFadeOutEnabled(true)
             .setTimeToLive(2000L)
-            .addShapes(Shape.Circle)
+            .addShapes(Shape.Mrectangle)
             .addSizes(Size(12))
             .setPosition(
                 0f,
@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
             .setSpeed(1f, 5f)
             .setFadeOutEnabled(true)
             .setTimeToLive(2000L)
-            .addShapes(Shape.Circle)
+            .addShapes(Shape.Mrectangle)
             .addSizes(Size(12))
             .setPosition(-50f, rainparticlesview.width + 50f, -50f, -50f)
             .streamFor(300, 5000L)
